@@ -1,5 +1,8 @@
 package org.zhf.Synchronized;
 
+import java.util.ArrayList;
+import java.util.List;
+
 public class Main {
 
 	public static void main(String[] args) throws InterruptedException {
@@ -14,8 +17,6 @@ public class Main {
 		(new Thread(sync3)).start();
 		
 		sync1.getTheName("other");
-		
-		
 	}
 
 }
